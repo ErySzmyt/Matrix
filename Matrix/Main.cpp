@@ -14,12 +14,12 @@ int main()
 
     std::cout << "Generated Random Matrice:" << std::endl;
 
-    Matrix matrice = MatrixGenerator::generateRandom(4);
+    Matrix matrix = MatrixGenerator::generateRandom(4);
 
-    matrice.print();
+    matrix.print();
 
-    std::cout << "Matrice sum: " << matrice.sum() << std::endl;
-    std::cout << "Matrice determinant: " << matrice.determinant() << std::endl;
+    std::cout << "Matrice sum: " << matrix.sum() << std::endl;
+    std::cout << "Matrice determinant: " << matrix.determinant() << std::endl;
 
 }
 
