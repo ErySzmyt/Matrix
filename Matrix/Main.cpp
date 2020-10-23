@@ -18,8 +18,8 @@ int main()
 
     matrix.print();
 
-    std::cout << "Matrice sum: " << matrix.sum() << std::endl;
-    std::cout << "Matrice determinant: " << matrix.determinant() << std::endl;
+    std::cout << "Matrix sum: " << matrix.sum() << std::endl;
+    std::cout << "Matrix determinant: " << matrix.determinant() << std::endl;
 
 }
 
