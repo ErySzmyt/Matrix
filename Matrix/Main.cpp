@@ -1,5 +1,4 @@
-// Matrices.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Main.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
 #include <iostream>
 #include <time.h> 
@@ -12,14 +11,14 @@ int main()
     // initialize random seed
     srand(time(NULL));
 
-    std::cout << "Generated Random Matrice:" << std::endl;
+    std::cout << "Generated Random Matrix:" << std::endl;
 
     Matrix matrix = MatrixGenerator::generateRandom(4);
 
     matrix.print();
 
-    std::cout << "Matrice sum: " << matrix.sum() << std::endl;
-    std::cout << "Matrice determinant: " << matrix.determinant() << std::endl;
+    std::cout << "Matrix sum: " << matrix.sum() << std::endl;
+    std::cout << "Matrix determinant: " << matrix.determinant() << std::endl;
 
 }
 
